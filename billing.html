@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Total Bill</title>
+</head>
+<script type="text/javascript">
+	var ra=10;
+	var qu=150;
+	var to=ra*qu;
+	var disc=0;
+	if(qu>100)
+	{
+		disc=to*5/100;
+	}
+	else
+	{
+		disc=to*2/100;
+	}
+	var net=to-disc;
+	document.write("Rate of the product "+ra);
+	document.write("<br>Total Quantity "+qu);
+	document.write("<br> Total Bill "+to);
+	document.write("<br> Discount "+disc);
+	document.write("<br> Net Bill "+net);
+</script>
+<body>
+
+</body>
+</html>
